@@ -20,6 +20,8 @@ public:
   void begin(void);
 
   void pinMode(uint8_t p, uint8_t d);
+  void writeIODIR(uint8_t iodir);
+  void writeGPPU(uint8_t gppu);
   void digitalWrite(uint8_t p, uint8_t d);
   void pullUp(uint8_t p, uint8_t d);
   uint8_t digitalRead(uint8_t p);
